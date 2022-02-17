@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 9rem;
+  width: 10rem;
+  margin-bottom: 4rem;
+}
+
+.nav-item {
+  font-family: Poppins;
+  font-size: 2rem;
+  list-style: none;
+  color: #000;
+}
+
+.nav-button {
+  background-color: #03b362;
+  border-radius: 21rem;
+  border: none;
+  color: #fff;
+  width: 15rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

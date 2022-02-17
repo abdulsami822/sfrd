@@ -1,0 +1,195 @@
+.homepage-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.homepage-main-content {
+  width: 50rem;
+}
+
+.homepage-main-content h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.homepage-main-content p {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  color: #7a7a7a;
+}
+
+.homepage-main-content button {
+  background-color: #04a9f8;
+  border: none;
+  border-radius: 5rem;
+  color: #fff;
+  font-family: Poppins;
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.5rem;
+}
+
+.homepage-main-image {
+  height: 40rem;
+  width: 30rem;
+  border-radius: 97px 20px 10px 1px;
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.74);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.homepage-explore {
+  margin: 10rem 0;
+}
+
+.homepage-explore-heading {
+  font-family: Poppins;
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.115em;
+  text-align: center;
+}
+
+.homepage-explore-content {
+  height: 7rem;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90.35deg,
+    rgba(255, 255, 255, 0.36) 0.1%,
+    rgba(255, 255, 255, 0.09) 99.25%
+  );
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  box-shadow: 5px 20px 40px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 25px;
+}
+
+.homepage-explore-link {
+  font-family: Poppins;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+.homepage-video-section {
+  margin-bottom: 15rem;
+}
+
+.homepage-video-section h1 {
+  font-family: Poppins;
+  color: #7a7a7a;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.video-js {
+  height: 50rem;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.who-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.who-image {
+  height: 40rem;
+  width: 30rem;
+}
+
+.who-content {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.who-content h1 {
+  font-family: Poppins;
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+.who-content p {
+  color: #7a7a7a;
+  font-size: 2rem;
+}
+
+.who-content button {
+  background-color: #04a9f8;
+  border: none;
+  border-radius: 5rem;
+  height: 4rem;
+  width: 12rem;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.3rem;
+}
+
+.mission-section {
+  height: 40rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 7rem;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 50px;
+  padding: 5rem 5rem;
+}
+
+.mission-image {
+  height: 28rem;
+  width: 28rem;
+  background: linear-gradient(
+    154.41deg,
+    rgba(255, 255, 255, 0.63) 5.84%,
+    rgba(255, 255, 255, 0.09) 97.4%
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 30px 100px 0px 30px;
+  padding: 2rem;
+}
+
+.mission-content {
+  width: 50rem;
+}
+
+.mission-content a {
+  font-size: 1.4rem;
+}
+
+.mission-content h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 4rem;
+}
+
+.mission-content p {
+  color: #e2e2e2;
+  letter-spacing: -0.005em;
+  font-family: Poppins;
+  font-size: 1.5rem;
+}
+
+.mission-content p a {
+  color: #04a9f8;
+}
