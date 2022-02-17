@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import HomePage from "./Components/HomePage/index.js";
-import ServicesPage from "./Components/ServicesPage/index.js";
-import GetInvolvedPage from "./Components/GetInvolvedPage/index.js";
-import FaqsPage from "./Components/FaqsPage/index.js";
-import AboutUsPage from "./Components/AboutUsPage/index.js";
-import ContactUsPage from "./Components/ContactUsPage/index.js";
-import Navbar from "./Components/Navbar/index.js";
-import Footer from "./Components/Footer/index.js";
+import HomePage from "./Components/HomePage";
+import ServicesPage from "./Components/ServicesPage";
+import GetInvolvedPage from "./Components/GetInvolvedPage";
+import FaqsPage from "./Components/FaqsPage";
+import AboutUsPage from "./Components/AboutUsPage";
+import ContactUsPage from "./Components/ContactUsPage";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
