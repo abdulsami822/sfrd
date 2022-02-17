@@ -1,7 +1,7 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
 
-import FaqsSection from "../FaqsSection";
+import FaqsSection from "../FaqsSection/index.js";
 
 import HomepageChildren from "../../Images/homepage-children.png";
 import WhoAreWeImage from "../../Images/who-are-we.png";
